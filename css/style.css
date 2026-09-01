@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope';
+    background-color: rgb(212, 255, 255);
+    padding: 30px;
+    gap: 50px;
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+a:hover {
+    color: rgb(127, 185, 255);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    align-self: self-start;
+    padding: 7px;
+    background-color: rgb(43, 184, 255);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Manrope';
+    color: white;
+}
+
+button a {
+    font-size: 13px;
+
+}
+
+table, td {
+    border: 1px solid red;
+}
